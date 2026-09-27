@@ -1,0 +1,13 @@
+arr = [1, 2, 3, 5, 6, 7]
+
+n = len(arr) + 1
+
+expected_sum = n * (n + 1) // 2
+actual_sum = 0
+
+for num in arr:
+    actual_sum += num
+
+missing = expected_sum - actual_sum
+
+print("Missing Number:", missing)
