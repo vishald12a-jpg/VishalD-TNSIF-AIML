@@ -1,0 +1,18 @@
+=====================================================
+CUSTOMER PERSONA SEGMENTATION — EDA FINDINGS
+=====================================================
+
+1. Total Customer Records : 600
+2. Total Features         : 2 (annual_income_k, spending_score)
+3. Missing Values         : 0
+4. Duplicate Records      : 0
+
+STATISTICAL SUMMARY:
+- Annual Income Range    : 15.0 k$ to 120.8 k$ (Mean: 68.38 k$, Median: 80.50 k$)
+- Spending Score Range   : 3.4 to 100.0 (Mean: 63.89, Median: 77.10)
+
+KEY OBSERVATIONS FROM EDA:
+1. Data Integrity        : Complete dataset with 600 valid entries and zero null or duplicate rows.
+2. Income Distribution    : Covers a wide financial range from $15k to $120.8k with an average income around $68.38k.
+3. Spending Score        : Spans from 3.4 up to a maximum of 100.0, indicating high variation in purchasing behavior.
+4. Clustering Suitability: Both features are continuous, clean, and display clear structural patterns, making the dataset ideal for feature scaling (StandardScaler) and K-Means clustering.
